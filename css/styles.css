@@ -220,6 +220,7 @@ body {
   margin-top: 30px;
   align-items: center;
   color: white;
+  font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
   width: 216px;
@@ -257,6 +258,8 @@ body {
 }
 .modal {
   position: absolute;
+  padding: 40px;
+
   min-width: 528px;
   min-height: 581px;
   top: 50%;
@@ -266,14 +269,12 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 999;
 }
-.modal__cross-container {
-  display: flex;
+.modal__cross-button {
+  position: absolute;
   margin-top: 8px;
   margin-right: 8px;
-  justify-content: end;
-  /* padding: 8px 8px; */
-}
-.modal__cross-button {
+  right: 0;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,9 +305,9 @@ body {
   color: #212121;
 }
 .form {
-  margin-top: 12px;
+  /* margin-top: 12px;
   margin-left: 40px;
-  margin-right: 40px;
+  margin-right: 40px; */
 }
 .form__label {
   /* position: relative; */
@@ -318,22 +319,23 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
-
+  padding-bottom: 4px;
+  display: block;
   color: #757575;
 }
 .form__input-container {
   position: relative;
 }
+
 .form__field {
-  padding-left: 42px;
-  margin-top: 4px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  height: 40px;
+  position: relative;
   width: 100%;
+  display: block;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  padding-left: 42px;
   /* border-color: white; */
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -354,10 +356,9 @@ body {
 }
 .form__icon {
   position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 12px;
-  transform: translateY(100%);
+  top: 50%;
+  left: 12px;
+
   width: 18px;
   height: 18px;
 }
@@ -423,7 +424,7 @@ body {
 }
 .main-button--modal__button {
   margin-top: 30px;
-  margin-bottom: 40px;
+
   display: block;
 }
 
@@ -748,11 +749,12 @@ body {
 .footer-form__button {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  display: flex;
   align-items: center;
-  justify-content: center;
   margin: 0;
+  gap: 10px;
+  align-items: center;
+  width: 200px;
+  height: 50px;
 }
 .footer-form__icon {
   width: 24px;
