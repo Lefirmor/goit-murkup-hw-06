@@ -5,26 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
-      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -36,7 +30,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--header-->
@@ -102,7 +96,7 @@
           <form class="form">
             <div class="form__input-container">
               <label class="form__label">
-                <span class="form__paragraph">Телефон</span>
+                <span class="form__paragraph">Ім'я</span>
 
                 <input type="tel" name="phone" class="form__field" />
 
@@ -125,7 +119,7 @@
 
             <div class="form__input-container">
               <label class="form__label">
-                <span class="form__paragraph">Телефон</span>
+                <span class="form__paragraph">Пошта</span>
 
                 <input type="tel" name="phone" class="form__field" />
 
@@ -171,58 +165,58 @@
         </div>
       </div>
 
-      <!--about_activity-->
+      <!--advantages-->
       <section class="advantages">
         <div class="container">
-          <h2 class="advantages__title visually-hidden">Чим ми займаємося</h2>
-          <ul class="advantages__list list">
+          <h2 class="h2-title visually-hidden">Чим ми займаємося</h2>
+          <ul class="advantages-list">
             <li>
-              <div class="advantages__icons-container">
-                <svg class="advantages__icon">
+              <div class="advantages-list__icons-container">
+                <svg class="advantages-list__icon">
                   <use href="images/symbol-defs.svg#icon-antenna-1"></use>
                 </svg>
               </div>
 
-              <h3 class="advantages__h3-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="advantages__paragraph">
+              <h3 class="advantages-list__h3-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="advantages-list__paragraph">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
             <li>
-              <div class="advantages__icons-container">
-                <svg class="advantages__icon">
+              <div class="advantages-list__icons-container">
+                <svg class="advantages-list__icon">
                   <use href="images/symbol-defs.svg#icon-clock-1"></use>
                 </svg>
               </div>
 
-              <h3 class="advantages__h3-title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="advantages__paragraph">
+              <h3 class="advantages-list__h3-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="advantages-list__paragraph">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
             <li>
-              <div class="advantages__icons-container">
-                <svg class="advantages__icon">
+              <div class="advantages-list__icons-container">
+                <svg class="advantages-list__icon">
                   <use href="images/symbol-defs.svg#icon-diagram-1"></use>
                 </svg>
               </div>
 
-              <h3 class="advantages__h3-title">ПЛАНУВАННЯ</h3>
-              <p class="advantages__paragraph">
+              <h3 class="advantages-list__h3-title">ПЛАНУВАННЯ</h3>
+              <p class="advantages-list__paragraph">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li>
-              <div class="advantages__icons-container">
-                <svg class="advantages__icon">
+              <div class="advantages-list__icons-container">
+                <svg class="advantages-list__icon">
                   <use href="images/symbol-defs.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
 
-              <h3 class="advantages__h3-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="advantages__paragraph">
+              <h3 class="advantages-list__h3-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="advantages-list__paragraph">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -234,38 +228,38 @@
       <section class="examples">
         <div class="container">
           <h2 class="examples__title h2-title">Чим ми займаємося</h2>
-          <ul class="examples__list list">
-            <li class="examples__item">
+          <ul class="examples-list list">
+            <li class="examples-list__item">
               <img
                 src="./images/work_examples/img_3.png"
-                class="examples__img"
+                class="examples-list__img"
                 alt="Пример работы"
                 width="370"
               />
-              <div class="examples__overlay">
-                <p class="examples__paragraph">Десктопні додатки</p>
+              <div class="examples-list__overlay">
+                <p class="examples-list__paragraph">Десктопні додатки</p>
               </div>
             </li>
-            <li class="examples__item">
+            <li class="examples-list__item">
               <img
-                class="examples__img"
+                class="examples-list__img"
                 src="./images/work_examples/img_2.png"
                 alt="Пример работы"
                 width="370"
               />
-              <div class="examples__overlay">
-                <p class="examples__paragraph">Мобільні додатки</p>
+              <div class="examples-list__overlay">
+                <p class="examples-list__paragraph">Мобільні додатки</p>
               </div>
             </li>
-            <li class="examples__item">
+            <li class="examples-list__item">
               <img
-                class="examples__img"
+                class="examples-list__img"
                 src="./images/work_examples/img_1.png"
                 alt="Пример работы"
                 width="370"
               />
-              <div class="examples__overlay">
-                <p class="examples__paragraph">Дизайнерські рішення</p>
+              <div class="examples-list__overlay">
+                <p class="examples-list__paragraph">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
@@ -274,40 +268,40 @@
       <!--employers-->
       <section class="employers">
         <div class="container">
-          <h2 class="employers__title">Наша команда</h2>
-          <ul class="employers__list list">
-            <li class="employers-card">
+          <h2 class="h2-title employers-title">Наша команда</h2>
+          <ul class="employers-list ">
+            <li class="employers-list__item">
               <img
-                class="employers-card__img"
+                class="employers-list__img"
                 src="./images/employers/img_1.jpg"
                 alt="сотрудник"
                 width="270"
               />
-              <div class="employers-card__container">
-                <h3 class="employers-card__title">Ігор Дем'яненко</h3>
-                <p class="employers-card__paragraph">Product Designer</p>
-                <div class="employers-card__icon-list">
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+              <div class="employers-list__container">
+                <h3 class="employers-list__title">Ігор Дем'яненко</h3>
+                <p class="employers-list__paragraph">Product Designer</p>
+                <div class="employers-list__wrapper">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-instagram-1"
                       ></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-facebook-1"
                       ></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-linkedin-1"
                       ></use>
@@ -316,38 +310,38 @@
                 </div>
               </div>
             </li>
-            <li class="employers-card">
+            <li class="employers-list__item">
               <img
-                class="employers-card__img"
+                class="employers-list__img"
                 src="./images/employers/img_2.jpg"
                 alt="сотрудник"
                 width="270"
               />
-              <div class="employers-card__container">
-                <h3 class="employers-card__title">Ігор Дем'яненко</h3>
-                <p class="employers-card__paragraph">Product Designer</p>
-                <div class="employers-card__icon-list">
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+              <div class="employers-list__container">
+                <h3 class="employers-list__title">Ігор Дем'яненко</h3>
+                <p class="employers-list__paragraph">Product Designer</p>
+                <div class="employers-list__wrapper"">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-instagram-1"
                       ></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-facebook-1"
                       ></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-linkedin-1"
                       ></use>
@@ -356,38 +350,38 @@
                 </div>
               </div>
             </li>
-            <li class="employers-card">
+            <li class="employers-list__item">
               <img
-                class="employers-card__img"
+                class="employers-list__img"
                 src="./images/employers/img_3.jpg"
                 alt="сотрудник"
                 width="270"
               />
-              <div class="employers-card__container">
-                <h3 class="employers-card__title">Ігор Дем'яненко</h3>
-                <p class="employers-card__paragraph">Product Designer</p>
-                <div class="employers-card__icon-list">
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+              <div class="employers-list__container">
+                <h3 class="employers-list__title">Ігор Дем'яненко</h3>
+                <p class="employers-list__paragraph">Product Designer</p>
+                <div class="employers-list__wrapper">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-instagram-1"
                       ></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-facebook-1"
                       ></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-linkedin-1"
                       ></use>
@@ -396,38 +390,38 @@
                 </div>
               </div>
             </li>
-            <li class="employers-card">
+            <li class="employers-list__item">
               <img
-                class="employers-card__img"
+                class="employers-list__img"
                 src="./images/employers/img_4.jpg"
                 alt="сотрудник"
                 width="270"
               />
-              <div class="employers-card__container">
-                <h3 class="employers-card__title">Ігор Дем'яненко</h3>
-                <p class="employers-card__paragraph">Product Designer</p>
-                <div class="employers-card__icon-list">
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+              <div class="employers-list__container">
+                <h3 class="employers-list__title">Ігор Дем'яненко</h3>
+                <p class="employers-list__paragraph">Product Designer</p>
+                <div class="employers-list__wrapper">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-instagram-1"
                       ></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-facebook-1"
                       ></use>
                     </svg>
                   </a>
-                  <a class="employers-card__link" href="">
-                    <svg class="employers-card__icon">
+                  <a class="employers-list__link" href="">
+                    <svg class="employers-list__icon">
                       <use
                         href="./images/symbol-defs.svg#icon-linkedin-1"
                       ></use>
